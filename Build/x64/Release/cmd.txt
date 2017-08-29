@@ -1,0 +1,7 @@
+classification
+E:\Investigation\DetectNet\dev\caffe-ssd-win-master\Build\x64\Release>classification.exe E:\Investigation\ImageNet\caffe-windows-master\bin\trained-remotenet\deploy.prototxt E:\Investigation\ImageNet\caffe-windows-master\bin\trained-remotenet\snapshot_iter_51100.caffemodel E:\Investigation\ImageNet\caffe-windows-master\bin\trained-remotenet\mean.binaryproto E:\Investigation\ImageNet\caffe-windows-master\bin\trained-remotenet\labels.txt E:\Investigation\ImageNet\caffe-windows-master\bin\real-remote\ah59-02547b-real.png
+detection
+image
+ssd.exe ../../../../models/VGGNet/VOC0712/SSD_300x300/deploy.prototxt ../../../../models/VGGNet/VOC0712/SSD_300x300/VGG_VOC0712_SSD_300x300_iter_120000.caffemodel image_list.txt -confidence_threshold 0.3 -file_type image
+video
+ssd.exe ../../../../models/VGGNet/VOC0712/SSD_300x300/deploy.prototxt ../../../../models/VGGNet/VOC0712/SSD_300x300/VGG_VOC0712_SSD_300x300_iter_120000.caffemodel video_list.txt -confidence_threshold 0.3 -file_type video

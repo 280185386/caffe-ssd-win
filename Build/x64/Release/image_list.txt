@@ -1,0 +1,2 @@
+E:\Investigation\DetectNet\dev\caffe-ssd-win-master\examples\images\fish-bike.jpg
+C:\Users\Peter\Downloads\2de76695f75d688a0623cb6dd2e14a91.jpg
